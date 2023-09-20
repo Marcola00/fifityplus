@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/backgroundempresa.png");
+  overflow: hidden;
+}
+
+header {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #3c4f4b;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+}
+
+#container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 33vw;
+  height: 75vh;
+  padding: 100px;
+}
+
+#supercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+hr {
+  color: white;
+  width: 33vw;
+}
+
+input {
+  border: 2px solid #3c4f4b;
+  border-radius: 20px;
+  padding: 20px 10px;
+  width: 28vw;
+  color: #3c4f4b;
+}
+
+
+button {
+  color: white;
+  background-color: #3c4f4b;
+  width: 28vw;
+  border: none;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #3c4f4b;
+}
+
+#cadastroButton{
+    margin-bottom: 100px;
+}
+
+#email{
+    margin-top: 100px;
+}
+
+#entrarButton{
+    margin-bottom: 10px;
+}
+
+#redef{
+    color: #3c4f4b;
+}

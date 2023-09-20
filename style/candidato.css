@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+main {
+  font-family: "Inter", sans-serif;
+}
+
+#sec1 {
+  background: linear-gradient(
+    90deg,
+    #649d7b 10%,
+    rgba(138, 207, 166, 0.7) 100%
+  );
+  display: flex;
+  padding: 20px 80px;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#art1 {
+  color: white;
+}
+
+#art1 p {
+  width: 300px;
+  margin: 30px 0;
+}
+
+#art1 h1 {
+  font-size: 30px;
+}
+
+#art1 button {
+  padding: 10px;
+  background: none;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+#sec1 img {
+  width: 400px;
+}
+
+#sec2 {
+  margin-top: 20px;
+}
+
+#art2 {
+  justify-content: start;
+  margin-left: 340px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#mulhersgundoquadro {
+  width: 400px;
+  margin-left: 40px;
+}
+
+#art3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#mainartimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+.maincard h5 {
+  font-weight: bolder;
+  color: #556b67;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card {
+  border-radius: 10px;
+  border: 2px solid #556b67;
+  padding: 30px;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+button {
+  cursor: pointer;
+}
+
+#sec3 {
+  font-family: "Inter", sans-serif;
+  background: url("../images/backgroundsec3candidato.png");
+  background-position: top;
+  background-size: cover;
+  color: #1a2724;
+  height: 600px;
+}
+
+#art4 {
+  font-weight: 100;
+  padding: 40px 200px;
+}
+
+#art4 h2 {
+  font-size: 24px;
+  margin-bottom: 70px;
+  margin-left: 650px;
+}
+
+#art4 ul {
+  font-size: 18px;
+  margin-left: 650px;
+}
+
+#art4 li {
+  margin-bottom: 50px;
+}
+
+#space {
+  height: 20px;
+  background-color: #649D7B;
+}

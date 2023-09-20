@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Homenaje', sans-serif;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(159, 255, 176);
+}
+
+.links, .botao{
+    font-family: 'Homenaje', sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#acessopag, #login{
+    display: flex;
+    gap: 15px;
+}
+
+#primeirolink{
+    margin-left: 130px;
+    margin-left: 130px;
+    text-decoration: underline;
+}
+
+.botao{
+    background-color: #8ACFA6;
+    color: #2B3E3A;
+    width: 100px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.botao a{
+    color: #2B3E3A;
+
+}
+
+.botao:hover{
+    background-color: #649D7B;
+}
+
+.links{
+    color: #556B67;
+}

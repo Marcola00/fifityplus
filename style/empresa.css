@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+#acessacont-a{
+  color: white;
+}
+
 #art1 {
   color: white;
 }
@@ -118,4 +122,3 @@
   height: 20px;
   background-color: #1a2724;
 }
-

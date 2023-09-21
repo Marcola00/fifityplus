@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background: url("../images/backgroundempresa.png");
+}
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+  background-color: #3c4f4b;
+  margin-bottom: 80px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}

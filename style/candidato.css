@@ -4,6 +4,10 @@ main {
   font-family: "Inter", sans-serif;
 }
 
+#acessacont-a{
+  color: white;
+}
+
 #sec1 {
   background: linear-gradient(
     90deg,
@@ -99,7 +103,7 @@ button {
   background: url("../images/backgroundsec3candidato.png");
   background-position: top;
   background-size: cover;
-  color: #1a2724;
+  color: #fff;
   height: 600px;
 }
 

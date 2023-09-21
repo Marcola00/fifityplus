@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+  }
+  
+  #container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 20px;
+  }
+  
+  input {
+    border: 2px solid #3c4f4b;
+    border-radius: 20px;
+    padding: 20px 10px;
+    width: 28vw;
+    color: #3c4f4b;
+  }
+  
+  input::placeholder {
+    color: #3c4f4b;
+  }
+  
+  button {
+    color: white;
+    background-color: #3c4f4b;
+    width: 28vw;
+    border: none;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    width: inherit;
+  }
+  
+  #p1 {
+    display: inline;
+  }
+  

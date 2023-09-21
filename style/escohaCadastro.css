@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/backgroundempresa.png");
+  height: 100vh;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px;
+  border: 1px solid #3c4f4b;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: white;
+  background-color: #3c4f4b;
+  width: 28vw;
+  border: none;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}

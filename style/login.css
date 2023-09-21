@@ -18,6 +18,7 @@ header {
   align-items: center;
   gap: 30px;
   background-color: #3c4f4b;
+  justify-content: space-between;
 }
 
 h1 {
@@ -73,7 +74,6 @@ input {
   color: #3c4f4b;
 }
 
-
 button {
   color: white;
   background-color: #3c4f4b;
@@ -88,18 +88,23 @@ input::placeholder {
   color: #3c4f4b;
 }
 
-#cadastroButton{
-    margin-bottom: 100px;
+#cadastroButton {
+  margin-bottom: 100px;
 }
 
-#email{
-    margin-top: 100px;
+#email {
+  margin-top: 100px;
 }
 
-#entrarButton{
-    margin-bottom: 10px;
+#entrarButton {
+  margin-bottom: 40px;
 }
 
-#redef{
-    color: #3c4f4b;
+#redef {
+  color: #3c4f4b;
+}
+
+button a{
+  color: #fff;
+  text-decoration: none;
 }

@@ -8,13 +8,16 @@
 
 header {
   font-family: "Homenaje", sans-serif;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #3c4f4b;
 }
-
+#accountcircle{
+  width: 2.8125rem;
+  margin-left: 8.125rem;
+}
 .links,
 .botao {
   font-family: "Homenaje", sans-serif;
@@ -25,12 +28,12 @@ header {
 #acessopag,
 #login {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
 }
 
 #primeirolink {
-  margin-left: 130px;
-  margin-left: 130px;
+  margin-left: 8.125rem;
+  margin-left: 8.125rem;
 }
 #empresaLink {
   text-decoration: underline;
@@ -43,13 +46,13 @@ button{
 .botao {
   background-color: white;
   color: #2b3e3a;
-  width: 100px;
-  height: 30px;
+  width: 6.25rem;
+  height: 2rem;
   display: inline-flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 1.37rem;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
 }
 

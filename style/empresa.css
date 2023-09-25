@@ -2,14 +2,14 @@
 #sec1 {
   font-family: "Inter", sans-serif;
   display: flex;
-  padding: 20px 80px;
+  padding: 1.25rem 5rem;
   background: url("../images/backgroundempresa.png");
-  gap: 350px;
+  gap: 21.875rem;
   align-items: center;
   justify-content: center;
 }
 
-#acessacont-a{
+#acessacont-a {
   color: white;
 }
 
@@ -18,16 +18,16 @@
 }
 
 #art1 p {
-  width: 300px;
-  margin: 50px 0;
+  width: 18.75rem;
+  margin: 3.125rem 0;
 }
 
 #art1 h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 #art1 button {
-  padding: 10px;
+  padding: 0.625rem;
   background: none;
   border: 0.5px solid white;
   border-radius: 5px;
@@ -35,19 +35,19 @@
 }
 
 #sec1 img {
-  width: 400px;
+  width: 25rem;
 }
 
 #sec2 {
   font-family: "Inter", sans-serif;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #art2 {
-  margin-left: 350px;
+  margin-left: 21.875rem;
   justify-content: center;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   align-items: center;
 }
 #art2 h2 {
@@ -55,18 +55,18 @@
 }
 
 #mulhersgundoquadro {
-  width: 400px;
+  width: 25rem;
 }
 
 #art3 {
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
 }
 #mainartimg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 100px;
+  margin-right: 6.25rem;
 }
 
 .maincard {
@@ -75,21 +75,21 @@
 
 .maincard h5 {
   color: #556b67;
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
 }
 .card {
   color: white;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
   background: linear-gradient(180deg, #2b3e3a 0%, rgba(86, 109, 104, 1) 100%);
-  padding: 80px 10px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  padding: 5rem 0.625rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
 #sec3 {
@@ -101,24 +101,24 @@
 }
 #art4 {
   font-weight: 100;
-  padding: 40px 200px;
+  padding: 2.5rem 12.5rem;
 }
 
 #art4 h2 {
-  font-size: 24px;
-  margin-bottom: 70px;
+  font-size: 1.5rem;
+  margin-bottom: 4.375rem;
 }
 
 #art4 ul {
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 1.125rem;
+  margin-left: 0.625rem;
 }
 
 #art4 li {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 #space {
-  height: 20px;
+  height: 1.25rem;
   background-color: #1a2724;
 }

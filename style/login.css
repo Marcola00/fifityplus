@@ -13,10 +13,10 @@ body {
 }
 
 header {
-  padding: 0 20px;
+  padding: 0 1.25rem; /* 20px / 16 = 1.25rem */
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem; /* 30px / 16 = 1.875rem */
   background-color: #3c4f4b;
   justify-content: space-between;
 }
@@ -24,22 +24,22 @@ header {
 h1 {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
-  font-size: 18px;
+  margin: 1.25rem 0; /* 20px / 16 = 1.25rem */
+  font-size: 1.125rem; /* 18px / 16 = 1.125rem */
   color: #fff;
   font-weight: 100;
 }
 
 #container {
-  border-radius: 10px;
+  border-radius: 0.625rem; /* 10px / 16 = 0.625rem */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  width: 33vw;
-  height: 75vh;
-  padding: 100px;
+  width: 33vw; /* 33% of viewport width */
+  height: 46.875rem; /* 75vh / 16 = 46.875rem */
+  padding: 6.25rem; /* 100px / 16 = 6.25rem */
 }
 
 #supercontainer {
@@ -51,37 +51,37 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem; /* 30px / 16 = 1.875rem */
 }
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem; /* 30px / 16 = 1.875rem */
 }
 
 hr {
   color: white;
-  width: 33vw;
+  width: 33vw; /* 33% of viewport width */
 }
 
 input {
-  border: 2px solid #3c4f4b;
-  border-radius: 20px;
-  padding: 20px 10px;
-  width: 28vw;
+  border: 0.125rem solid #3c4f4b; /* 2px / 16 = 0.125rem */
+  border-radius: 1.25rem; /* 20px / 16 = 1.25rem */
+  padding: 1.25rem 0.625rem; /* 20px 10px / 16 = 1.25rem 0.625rem */
+  width: 28vw; /* 28% of viewport width */
   color: #3c4f4b;
 }
 
 button {
   color: white;
   background-color: #3c4f4b;
-  width: 28vw;
+  width: 28vw; /* 28% of viewport width */
   border: none;
-  padding: 20px 10px;
+  padding: 1.25rem 0.625rem; /* 20px 10px / 16 = 1.25rem 0.625rem */
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px / 16 = 0.3125rem */
 }
 
 input::placeholder {
@@ -89,22 +89,22 @@ input::placeholder {
 }
 
 #cadastroButton {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem; /* 100px / 16 = 6.25rem */
 }
 
 #email {
-  margin-top: 100px;
+  margin-top: 6.25rem; /* 100px / 16 = 6.25rem */
 }
 
 #entrarButton {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem; /* 40px / 16 = 2.5rem */
 }
 
 #redef {
   color: #3c4f4b;
 }
 
-button a{
+button a {
   color: #fff;
   text-decoration: none;
 }

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+#sec1 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  padding: 1.25rem 5rem;
+  background: url("../images/backgroundempresa.png");
+  gap: 21.875rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#acessacont-a {
+  color: white;
+}
+
+#art1 {
+  color: white;
+}
+
+#art1 p {
+  width: 18.75rem;
+  margin: 3.125rem 0;
+}
+
+#art1 h1 {
+  font-size: 1.875rem;
+}
+
+#art1 button {
+  padding: 0.625rem;
+  background: none;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+#sec1 img {
+  width: 25rem;
+}
+
+#sec2 {
+  font-family: "Inter", sans-serif;
+  margin-top: 0.625rem;
+}
+
+#art2 {
+  margin-left: 21.875rem;
+  justify-content: center;
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+#art2 h2 {
+  font-weight: 100;
+}
+
+#mulhersgundoquadro {
+  width: 25rem;
+}
+
+#art3 {
+  display: flex;
+  gap: 3.125rem;
+}
+#mainartimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6.25rem;
+}
+
+.maincard {
+  text-align: center;
+}
+
+.maincard h5 {
+  color: #556b67;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+}
+.card {
+  color: white;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background: linear-gradient(180deg, #2b3e3a 0%, rgba(86, 109, 104, 1) 100%);
+  padding: 5rem 0.625rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+#sec3 {
+  font-family: "Inter", sans-serif;
+  background: url("../images/backgroundsec3empresa.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+#art4 {
+  font-weight: 100;
+  padding: 2.5rem 12.5rem;
+}
+
+#art4 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 4.375rem;
+}
+
+#art4 ul {
+  font-size: 1.125rem;
+  margin-left: 0.625rem;
+}
+
+#art4 li {
+  margin-bottom: 3.125rem;
+}
+
+#space {
+  height: 1.25rem;
+  background-color: #1a2724;
+}

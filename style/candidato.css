@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+main {
+  font-family: "Inter", sans-serif;
+}
+
+#acessacont-a {
+  color: white;
+}
+
+#sec1 {
+  background: linear-gradient(
+    90deg,
+    #649d7b 10%,
+    rgba(138, 207, 166, 0.7) 100%
+  );
+  display: flex;
+  padding: 1.25rem 5rem;
+  gap: 18.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#art1 {
+  color: white;
+}
+
+#art1 p {
+  width: 18.75rem;
+  margin: 1.875rem 0;
+}
+
+#art1 h1 {
+  font-size: 1.875rem;
+}
+
+#art1 button {
+  padding: 0.625rem;
+  background: none;
+  border: 0.03125rem solid white;
+  border-radius: 0.3125rem;
+  color: white;
+}
+
+#sec1 img {
+  width: 25rem;
+}
+
+#sec2 {
+  margin-top: 1.25rem;
+}
+
+#art2 {
+  justify-content: start;
+  margin-left: 21.25rem;
+  display: flex;  
+  gap: 1.25rem;
+  align-items: center;
+}
+
+#mulhersgundoquadro {
+  width: 25rem;
+  margin-left: 2.5rem;
+}
+
+#art3 {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+#mainartimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 9.375rem;
+}
+
+.maincard h5 {
+  font-weight: bolder;
+  color: #556b67;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+}
+
+.card {
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #556b67;
+  padding: 1.875rem;
+  width: 31.25rem;
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+button {
+  cursor: pointer;
+}
+
+#sec3 {
+  font-family: "Inter", sans-serif;
+  background: url("../images/backgroundsec3candidato.png");
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  height: 37.5rem;
+}
+
+#art4 {
+  font-weight: 100;
+  padding: 2.5rem 12.5rem;
+}
+
+#art4 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 4.375rem;
+  margin-left: 40.625rem;
+}
+
+#art4 ul {
+  font-size: 1.125rem;
+  margin-left: 40.625rem;
+}
+
+#art4 li {
+  margin-bottom: 3.125rem;
+}
+
+#space {
+  height: 1.25rem;
+  background-color: #649d7b;
+}

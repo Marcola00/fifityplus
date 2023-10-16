@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../../style/cadastro/cadastroempresa/cadastroempresa.css"
+    />
+    <link rel="stylesheet" href="../../style/headerSimples.css" />
+  </head>
+  <body>
+    <header style="margin-bottom: -30px">
+      <a href="../../empresa.html"
+        ><img src="../../images/logo.png" alt=""
+      /></a>
+      <a href=""><img src="../../images/Login.png" alt="" /></a>
+    </header>
+    <div id="container">
+      <form id="form-5" onsubmit="salvarInformacoes(event, 'form-5')" action="#">
+        <div>
+          <p>Contato empresarial:</p>
+          <input required type="email" name="email" placeholder="E-mail" />
+        </div>
+        <div>
+          <input required type="tel" name="telefone" placeholder="Telefone" />
+        </div>
+        <div>
+          <input type="text" name="whatsapp" placeholder="Whatsapp" />
+        </div>
+        <button type="submit">
+          CRIAR CONTA
+        </button>
+      </form>
+    </div>
+    <script src="../../js/cadastroempresa.js"></script>
+  </body>
+</html>

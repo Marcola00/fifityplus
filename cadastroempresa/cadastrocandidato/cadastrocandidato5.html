@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../../style/cadastro/cadastrocandidato/cadastrocandidato.css"
+    />
+    <link rel="stylesheet" href="../../style/headerSimples.css" />
+  </head>
+  <body>
+    <header style="margin-bottom: -30px">
+      <a href="../../candidato.html"><img src="../../images/logo.png" alt="" /></a>
+      <a href=""><img src="../../images/Login.png" alt="" /></a>
+    </header>
+    <div id="container">
+      <form id="form-5" action="#" onsubmit="salvarInformacoes(event, 'form-5')">
+        <div>
+          <p>Cargo:</p>
+          <input required type="text" placeholder="Cargo" name="cargo"/>
+        </div>
+        <div>
+          <p>Localidade da vaga:</p>
+          <input required type="text" placeholder="Localidade da vaga" name="local_vaga"/>
+        </div>
+        <div>
+          <p id="p1">Está buscando emprego remoto?</p>
+          <input type="checkbox" name="emprego_remoto"/>
+        </div>
+        <button type="submit">CRIAR CONTA</button>
+      </form>
+    </div>
+    <script src="../../js/cadastrocandidato.js"></script>
+  </body>
+</html>

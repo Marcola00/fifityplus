@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../../style/cadastro/cadastrocandidato/cadastrocandidato.css"
+    />
+    <link rel="stylesheet" href="../../style/headerSimples.css" />
+  </head>
+  <body>
+    <header style="margin-bottom: -30px">
+      <a href="../../candidato.html"><img src="../../images/logo.png" alt="" /></a>
+      <a href=""><img src="../../images/Login.png" alt="" /></a>
+    </header>
+    <div id="container">
+      <form id="form-4" action="#" onsubmit="salvarInformacoes(event, 'form-4')">
+        <div>
+          <p>Cargo mais recente:</p>
+          <input required type="text" placeholder="Cargo mais recente" name="cg_recente"/>
+        </div>
+        <div>
+          <p>Tipo de emprego:</p>
+          <input required type="text" placeholder="Tipo de emprego" name="tp_emprego"/>
+        </div>
+        <div>
+          <p>Empresa mais recente (Opcional):</p>
+          <input type="text" placeholder="Empresa mais recente" name="empresa_recente"/>
+        </div>
+        <button type="submit">CONTINUAR</button>
+      </form>
+    </div>
+    <script src="../../js/cadastrocandidato.js"></script>
+  </body>
+</html>

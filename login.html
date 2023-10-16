@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/login.css" />
+  </head>
+  <body>
+    <header>
+      <a href="empresa.html"><img src="./images/logo.png" alt="" /></a>
+      <a href=""><img src="./images/Login.png" alt="" /></a>
+    </header>
+    <h1>OLÁ, INSIRA SEU LOGIN</h1>
+    <div id="supercontainer">
+      <div id="container">
+        <form id="form-1" onsubmit="salvarInformacoes(event,'form-1')"  action="#">
+          <input type="text" name="email" id="email" placeholder="Email ou telefone" />
+          <input type="password" name="senha" placeholder="Senha" id="senha" />
+          <button id="entrarButton" type="submit">Entrar</button>
+        </form>
+        <section>
+          <p>Esqueceu a senha? <a id="redef" href="esqueceuSenha1.html">REDEFINIR SENHA</a></p>
+          <hr />
+          <button id="cadastroButton"><a href="escolhaCadastro.html">Criar uma nova conta</a></button>
+        </section>
+      </div>
+    </div>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
